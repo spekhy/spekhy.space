@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'toto-som-ja': "url('/src/ja.jpg')"
+      }
+    },
   },
   plugins: [],
 }
